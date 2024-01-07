@@ -1,0 +1,83 @@
+PluginPrefix: '[VersionControl]'
+Messages:
+  usage:
+    text: 'Usage:'
+    changever: '/changeversion SERVER MinVersion MaxVersion'
+    checkver: '/checkversion SERVER'
+    fallback: '/versioncontrol fallback SERVER (or kick to kick)'
+  error:
+    no_args: 'You provided no arguments...'
+    not_enough_args: 'You provided not enough arguments.'
+    too_many_args: 'You provided too many arguments.'
+    no_server: 'There is no Server called'
+    no_server_casing: 'Please remember this command is case sensitive!'
+    reload: 'Error during reload. Please read config file!'
+  connect:
+    error_multi:
+      after_servername: 'is currently only available for Minecraft versions between'
+      between_versions: 'and'
+    error_single: 'is currently only available for the Minecraft version'
+  change:
+    before_servername: 'Versions for the server'
+    after_servername: 'has been changed to:'
+    success_multi:
+      min: 'Min:'
+      max: 'Max:'
+    error:
+      min_over_max: 'The minimal version should NOT be bigger than the maximum version!'
+      min_wrong: 'The minimal Version was incorrect.'
+      max_wrong: 'The maximal Version was incorrect.'
+  check:
+    before_servername: 'The Server'
+    multi:
+      after_servername: 'is set to the versions'
+      between_versions: 'and'
+    single:
+      after_servername: 'is set to the version'
+  modify:
+    fallback:
+      set_to_server: 'The fallback server is now:'
+      set_to_kick: 'Set fallback event to kick'
+  fallback:
+    kick_message:
+      multi_part1: 'You got kicked from the Server, because the Server is only for Versions'
+      multi_part2: 'and'
+      single: 'You got kicked from the Server, because the Server is only for Version'
+Server:
+Description:
+  1: 'This plugin uses the Protocol version numbers of Minecraft. Please see this website for the Versions: https://wiki.vg/Protocol_version_numbers'
+  2: 'If future versions are available, they only need to be added like the versions below; The plugin will then use the names provided automatically'
+Versions:
+  3: '1.7/1.7.1'
+  4: '1.7.2-1.7.5'
+  5: '1.7.6-1.7.10'
+  47: '1.8(.x)'
+  107: '1.9'
+  108: '1.9.1'
+  109: '1.9.2'
+  110: '1.9.3/1.9.4'
+  210: '1.10(.x)'
+  315: '1.11'
+  316: '1.11.1/1.11.2'
+  335: '1.12'
+  338: '1.12.1'
+  340: '1.12.2'
+  393: '1.13'
+  401: '1.13.1'
+  404: '1.13.2'
+  477: '1.14'
+  480: '1.14.1'
+  485: '1.14.2'
+  490: '1.14.3'
+  498: '1.14.4'
+  573: '1.15'
+  575: '1.15.1'
+  578: '1.15.2'
+  735: '1.16'
+  736: '1.16.1'
+  751: '1.16.2'
+  753: '1.16.3'
+  754: '1.16.4/1.16.5'
+  755: '1.17'
+  756: '1.17.1'
+  757: '1.18/1.18.1'
